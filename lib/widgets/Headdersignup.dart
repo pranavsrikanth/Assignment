@@ -45,12 +45,11 @@ class HeaderContainer1 extends StatelessWidget {
           ),
           Center(
             child: Container(
-              padding: const EdgeInsets.all(50),
+              padding: const EdgeInsets.all(55),
             ),
           ),
           Center(
-            child: Container(
-              padding: const EdgeInsets.all(10),
+            child: IntrinsicHeight(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -62,10 +61,8 @@ class HeaderContainer1 extends StatelessWidget {
                   ),
                   const VerticalDivider(
                     color: Colors.white54,
-                    thickness: 5,
-                    indent: 20,
-                    endIndent: 0,
-                    width: 10,
+                    thickness: 1,
+                    width: 20,
                   ),
                   Flexible(
                     child: Text(
