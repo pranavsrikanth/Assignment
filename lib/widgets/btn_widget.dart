@@ -12,7 +12,7 @@ class ButtonWidget extends StatelessWidget {
       onTap: onClick,
       child: Container(
         width: double.infinity,
-        height: 40,
+        height: 50,
         decoration: BoxDecoration(
           color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.all(
@@ -23,7 +23,9 @@ class ButtonWidget extends StatelessWidget {
         child: Text(
           btnText,
           style: TextStyle(
-              fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
+            fontSize: 15,
+            color: Colors.white,
+          ),
         ),
       ),
     );

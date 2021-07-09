@@ -68,7 +68,6 @@ class _RegPageState extends State<RegPage> {
       child: TextFormField(
         controller: controller,
         decoration: InputDecoration(
-          // border: InputBorder.none,
           border: new UnderlineInputBorder(
             borderSide: new BorderSide(),
           ),
